@@ -1,0 +1,56 @@
+{
+  "name": "@gapit/component-template",
+  "description": "A template for making components",
+  "version": "0.0.0",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "clean": "rimraf coverage dist",
+    "lint": "eslint . --ext .ts,.js",
+    "prepublishOnly": "npm run lint && npm run prettier && npm run test && npm run build",
+    "prettier": "prettier --check .",
+    "test": "jest --coverage",
+    "watch": "rollup -cw"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^15.1.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "@types/jest": "^26.0.14",
+    "@typescript-eslint/eslint-plugin": "^4.3.0",
+    "@typescript-eslint/parser": "^4.3.0",
+    "eslint": "^7.11.0",
+    "jest": "^26.5.3",
+    "prettier": "^2.1.2",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.29.0",
+    "rollup-plugin-typescript2": "^0.27.2",
+    "ts-jest": "^26.4.1",
+    "typescript": "^4.0.3"
+  },
+  "pre-commit": [
+    "prepublishOnly"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gapitio/component-template.git"
+  },
+  "author": "Gapit",
+  "bugs": {
+    "url": "https://github.com/gapitio/component-template/issues"
+  },
+  "homepage": "https://github.com/gapitio/component-template#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}

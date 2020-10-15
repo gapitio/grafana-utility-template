@@ -1,5 +1,7 @@
 # Component template
 
+[![Build Status](https://travis-ci.org/gapitio/component-template.svg?branch=master)](https://travis-ci.org/gapitio/component-template)
+
 A template for creating simple components.
 
 This template uses

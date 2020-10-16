@@ -1,19 +1,26 @@
-# Component template
+# Component name
 
-A template for creating simple components.
+A short description of the component
 
-This template uses
-
-- [Typescript](https://github.com/typescript-eslint/typescript-eslint) for catching errors and provide fixes.
-- [Eslint](https://eslint.org/) for finding and fixing problems in your javascript code.
-- [TypeScript ESLint](https://github.com/typescript-eslint/typescript-eslint) for Eslint to support Typescript.
-- [Prettier](https://prettier.io/) for enforcing style guides.
-- [Jest](https://jestjs.io/) for fast unit testing and code coverage.
-- [rollup](https://rollupjs.org/guide/en/) for fast and small bundle sizes.
+E.g. This component adds two numbers together.
+It also has a variable and function that returns "something".
 
 ## Usage
 
-```bash
-npm install # or yarn
-npm build
+Description/example on how to use the component.
+
+### add
+
+```ts
+import { add } from "@gapit/component-template";
+
+add(2, 3); // Returns 5
+```
+
+### SOMETHING_VARIABLE
+
+```ts
+import { SOMETHING_VARIABLE } from "@gapit/component-template";
+
+console.log(SOMETHING_VARIABLE); // Returns "something
 ```

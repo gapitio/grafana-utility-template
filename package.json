@@ -13,9 +13,10 @@
   "scripts": {
     "build": "rollup -c",
     "clean": "rimraf coverage dist",
-    "lint": "eslint . --ext .ts,.js",
+    "lint": "npm run lint:eslint && npm run lint:prettier",
+    "lint:eslint": "eslint . --ext .ts,.js",
+    "lint:prettier": "prettier --check .",
     "prepublishOnly": "npm run lint && npm run prettier && npm run test && npm run build",
-    "prettier": "prettier --check .",
     "test": "jest --coverage",
     "watch": "rollup -cw"
   },

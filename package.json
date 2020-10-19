@@ -13,6 +13,9 @@
   "scripts": {
     "build": "rollup -c",
     "clean": "rimraf coverage dist",
+    "fix": "npm run fix:eslint && npm run fix:prettier",
+    "fix:eslint": "eslint . --ext .ts,.js --fix",
+    "fix:prettier": "prettier --write .",
     "lint": "npm run lint:eslint && npm run lint:prettier",
     "lint:eslint": "eslint . --ext .ts,.js",
     "lint:prettier": "prettier --check .",

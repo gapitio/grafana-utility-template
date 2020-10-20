@@ -7,4 +7,4 @@ function somethingFunction(): string {
 
 const SOMETHING_VARIABLE = "something";
 
-export { somethingFunction, SOMETHING_VARIABLE };
+export { SOMETHING_VARIABLE, somethingFunction };

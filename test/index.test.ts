@@ -1,4 +1,4 @@
-import { add, somethingFunction, SOMETHING_VARIABLE } from "../src/index";
+import { SOMETHING_VARIABLE, add, somethingFunction } from "../src/index";
 
 describe("add", () => {
   it("adds correctly", () => {

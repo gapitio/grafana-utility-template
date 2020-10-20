@@ -31,6 +31,8 @@
     "@typescript-eslint/eslint-plugin": "^4.3.0",
     "@typescript-eslint/parser": "^4.3.0",
     "eslint": "^7.11.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-sort-exports": "^0.3.2",
     "jest": "^26.5.3",
     "prettier": "^2.1.2",
     "rimraf": "^3.0.2",

@@ -1,4 +1,4 @@
-import { somethingFunction, SOMETHING_VARIABLE } from "./something";
+import { SOMETHING_VARIABLE, somethingFunction } from "./something";
 
 /**
  * Adds x and y together.
@@ -17,4 +17,4 @@ function add(x: number, y: number): number {
   return x + y;
 }
 
-export { add, somethingFunction, SOMETHING_VARIABLE };
+export { SOMETHING_VARIABLE, add, somethingFunction };

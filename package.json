@@ -1,6 +1,6 @@
 {
-  "name": "@gapit/component-template",
-  "description": "A template for making components",
+  "name": "@gapit/utility-template",
+  "description": "A template for making utilities",
   "version": "0.0.0",
   "license": "MIT",
   "main": "dist/index.js",
@@ -48,13 +48,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gapitio/component-template.git"
+    "url": "git+https://github.com/gapitio/utility-template.git"
   },
   "author": "Gapit",
   "bugs": {
-    "url": "https://github.com/gapitio/component-template/issues"
+    "url": "https://github.com/gapitio/utility-template/issues"
   },
-  "homepage": "https://github.com/gapitio/component-template#readme",
+  "homepage": "https://github.com/gapitio/utility-template#readme",
   "publishConfig": {
     "access": "public"
   }

@@ -1,4 +1,4 @@
-# Changelog for component-template
+# Changelog for utility-template
 
 ## v0.0.0 (YYYY/MM/DD)
 
